@@ -28,3 +28,7 @@ You do not need to use Ajax.
 It's common these days to have your app run on a single HTML page, and have JS change the content; the 'old' way is to refresh the page completely whenever you want to go to another page, but (like AJAX) that feels a lot slower and less fluid from a user perspective.
 
 **You can change which 'page' shows up by modifying which of your DIVs has the `hidden` class applied.**
+
+## Steps:
+
+* Create a bit of HTML to serve as a guidline for the structure to help visualize the project (which will later be stripped in favor of rendering in JS).
