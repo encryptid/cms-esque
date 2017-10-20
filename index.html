@@ -4,6 +4,7 @@
 
 <head>
     <title>Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
 </head>
@@ -11,11 +12,21 @@
 <body>
     <header>
         <h1>Cafe Josué</h1>
+        <hr>
+        <!-- <div class="views"> -->
+        <h2 id="menuTab">Menu</h2>
+        <h2 id="addTab">Add Item to Menu</h2>
+        <hr>
+        <!-- </div> -->
     </header>
-    <section class="menu">
+    <section class="menu hidden">
     </section>
-    <section class="addItem hidden">
-        <p>curds and whey</p>
+    <section class="addItem">
+        <h2>Add menu item:</h2>
+        <input placeholder='Menu item name'>
+        <input placeholder="Menu item description">
+        <input placeholder="Menu item price">
+        <button>Submit</button>
     </section>
 </body>
 

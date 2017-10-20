@@ -21,6 +21,7 @@ window.addEventListener('load', function () {
             let title = document.createElement('h2');
             let desc = document.createElement('li');
             let price = document.createElement('li');
+            desc.classList.add('desc');
             title.textContent = coffee[i].name;
             desc.textContent = coffee[i].description;
             price.textContent = coffee[i].price;

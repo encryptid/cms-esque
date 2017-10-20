@@ -31,4 +31,10 @@ It's common these days to have your app run on a single HTML page, and have JS c
 
 ## Steps:
 
-* Create a bit of HTML to serve as a guidline for the structure to help visualize the project (which will later be stripped in favor of rendering in JS).
+* --Create a bit of HTML to serve as a guidline for the structure to help visualize the project (which will later be stripped in favor of rendering in JS).--
+
+* --Add a header to navigate to the 'add' section--
+
+* --Create the addItem 'section' which will have 3 inputs and a button to submit a new menu item.--
+
+* Clicking on header will add 'hide' class to one view and remove it from t'other.
