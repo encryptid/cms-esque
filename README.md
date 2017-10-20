@@ -37,4 +37,8 @@ It's common these days to have your app run on a single HTML page, and have JS c
 
 * ~~Create the addItem 'section' which will have 3 inputs and a button to submit a new menu item.~~
 
-* Clicking on header will add 'hide' class to one view and remove it from t'other.
+* Clicking on either header will add 'hide' class to the view opposite to the one represented and remove it from t'other.
+
+* Create a function that takes the info in each input box, creates an object from it, and ~~pushes it into the "food" array~~ appends it to the 'menu' class. The inputs should then be cleared.
+
+* Perhaps include a message indicating that the menu has been updated.
