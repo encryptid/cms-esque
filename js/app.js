@@ -13,6 +13,9 @@ window.addEventListener('load', function () {
     ];
 
     let menu = document.querySelector('.menu');
+    let addItem = document.querySelector('.addItem');
+    let menadd = document.querySelector('#menuTab');
+    let addTab = document.querySelector('#addTab');
 
     function addItems() {
         for (let i = 0; i < coffee.length; i++) {
@@ -33,5 +36,22 @@ window.addEventListener('load', function () {
         };
     };
     addItems();
+
+    menuTab.addEventListener('click',function() {
+        console.log('click works!');
+        console.log(menu.classList.contains('hidden'));
+        if (menu.classList.contains('hidden')) {
+            menu.classList.remove('hidden');
+            addItem.classList.add('hidden');
+        }
+    });
+
+    addTab.addEventListener('click',function() {
+        console.log('click works!');
+        if (addItem.classList.contains('hidden')) {
+            addItem.classList.remove('hidden');
+            menu.classList.add('hidden');
+        }
+    });
 
 });

@@ -4,14 +4,16 @@
 // @include foundation-grid;
 
 body {
+    background-image: url('https://grist.files.wordpress.com/2014/05/coffee-beans.jpg?w=1200&h=675&crop=1');
+    background-size: 100%;
     background-color: black;
     color: white;
     font-family: sans-serif;
 }
 
-.hidden *{
-    display: none;
-}
+// .hidden * {
+//     display: none;
+// }
 
 header {
     text-align: center;
@@ -28,6 +30,7 @@ header {
     }
 
     h2:hover {
+        cursor: default;
         color: black;
         background-color: white;
         border-radius: 5px;
@@ -59,6 +62,10 @@ header {
     }
 }
 
+.menu.hidden {
+    display: none;
+}
+
 .addItem {
     border: 5px solid white;
     text-align: center;
@@ -70,4 +77,8 @@ header {
         margin: 1vw;
         width: 80%;
     }
+}
+
+.addItem.hidden {
+    display: none;
 }
