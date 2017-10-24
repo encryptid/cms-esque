@@ -16,6 +16,7 @@ window.addEventListener('load', function () {
     let addItem = document.querySelector('.addItem');
     let menadd = document.querySelector('#menuTab');
     let addTab = document.querySelector('#addTab');
+    let btn = document.querySelector('button');
 
     function addItems() {
         for (let i = 0; i < coffee.length; i++) {
@@ -51,7 +52,21 @@ window.addEventListener('load', function () {
         if (addItem.classList.contains('hidden')) {
             addItem.classList.remove('hidden');
             menu.classList.add('hidden');
-        }
+        };
+    });
+
+    btn.addEventListener('click', function() {
+        let name = document.querySelector('#name');
+        let desc = document.querySelector('#desc');
+        let price = document.querySelector('#price');
+        /* Two possible approaches here:
+        1. rework the addItems function to check for existing items before
+            adding it to the DOM and pushing the value of these inputs to the
+            coffee object or
+        2. Simply use this function to create a new element every time the
+            button is pressed. This is a less elegant solution, considering 
+            the code to create elements is already in play.
+        */
     });
 
 });

@@ -1,7 +1,6 @@
-// @import '../node_modules/foundation-sites/scss/foundation';
-
-// @include foundation-global-styles;
-// @include foundation-grid;
+@import 'header.scss';
+@import 'menu.scss';
+@import 'addItem.scss';
 
 body {
     background-image: url('https://grist.files.wordpress.com/2014/05/coffee-beans.jpg?w=1200&h=675&crop=1');
@@ -9,85 +8,4 @@ body {
     background-color: black;
     color: white;
     font-family: sans-serif;
-}
-
-header {
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-
-    hr {
-        width: 50%;
-    }
-
-    h2 {
-        display: inline-block;
-        margin: 0;
-        padding: 2vh 5vw;
-    }
-
-    h2:hover {
-        cursor: default;
-        color: black;
-        background-color: white;
-        border-radius: 5px;
-    }
-}
-
-.menu {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: rgba(128, 128, 128, 0.6);
-    border-radius: 10px;
-    font-family: 'Josefin Sans', sans-serif;
-
-    ul {
-        //border-top: 2px inset white;
-        border-bottom: 2px inset white;
-        list-style: none;
-        padding: 2vh 5vw;
-
-        li {
-            padding: .5vh;
-        }
-
-        .desc { 
-            font-style: italic;
-        }
-
-        h2 {
-            margin: 0;
-            padding: 0;
-        }
-    }
-}
-
-.menu.hidden {
-    display: none;
-}
-
-.addItem {
-    background-color: rgba(128, 128, 128, 0.6);
-    border-radius: 10px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-    width: 25%;
-    margin: 10vh auto;
-    padding: 1vh;
-
-    input {
-        display: block;
-        margin: 1vw;
-        width: 80%;
-    }
-
-    button {
-        border-radius: 0px;
-        border: 1px double black;
-        background-color: white;
-        width: 6vw;
-    }
-}
-
-.addItem.hidden {
-    display: none;
 }
