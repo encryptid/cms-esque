@@ -5,13 +5,13 @@ A menu app
 
 Create a menu app. You should be able to add items and view the menu. **Your application should include two different 'views'** (not actual html files, but different DOMs being displayed). You don't need to worry about styling.
 
-[x] You should have a pair of links at the top of your page that allow you to navigate between the views (see hint below).
+[ x ] You should have a pair of links at the top of your page that allow you to navigate between the views (see hint below).
 
-[x] The first view should allow users to **add new foods**. Foods should have at least a name, a description, and a price.
+[ x ] The first view should allow users to **add new foods**. Foods should have at least a name, a description, and a price.
 
-[x] The second view should allow users to **view the whole menu**. You should display all foods as well as their name, description, and price. Add a text box at the top of the menu view and filter down the list of foods to those that include the search string in the name.
+[ x ] The second view should allow users to **view the whole menu**. You should display all foods as well as their name, description, and price. Add a text box at the top of the menu view and filter down the list of foods to those that include the search string in the name.
 
-[x] You should have a main `app.js` and at least one other JS file. I'd suggest making a separate one to include
+[ x ] You should have a main `app.js` and at least one other JS file. I'd suggest making a separate one to include
 
 ## Approaching this
 
