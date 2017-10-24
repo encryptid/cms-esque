@@ -5,13 +5,13 @@ A menu app
 
 Create a menu app. You should be able to add items and view the menu. **Your application should include two different 'views'** (not actual html files, but different DOMs being displayed). You don't need to worry about styling.
 
-[ ] You should have a pair of links at the top of your page that allow you to navigate between the views (see hint below).
+[x] You should have a pair of links at the top of your page that allow you to navigate between the views (see hint below).
 
-[ ] The first view should allow users to **add new foods**. Foods should have at least a name, a description, and a price.
+[x] The first view should allow users to **add new foods**. Foods should have at least a name, a description, and a price.
 
-[ ] The second view should allow users to **view the whole menu**. You should display all foods as well as their name, description, and price. Add a text box at the top of the menu view and filter down the list of foods to those that include the search string in the name.
+[x] The second view should allow users to **view the whole menu**. You should display all foods as well as their name, description, and price. Add a text box at the top of the menu view and filter down the list of foods to those that include the search string in the name.
 
-[ ] You should have a main `app.js` and at least one other JS file. I'd suggest making a separate one to include
+[x] You should have a main `app.js` and at least one other JS file. I'd suggest making a separate one to include
 
 ## Approaching this
 
@@ -29,6 +29,10 @@ It's common these days to have your app run on a single HTML page, and have JS c
 
 **You can change which 'page' shows up by modifying which of your DIVs has the `hidden` class applied.**
 
+## Hard mode
+
+[ ] Give users a way to delete items.
+
 ## Steps:
 
 * ~~Create a bit of HTML to serve as a guidline for the structure to help visualize the project (which will later be stripped in favor of rendering in JS).~~
@@ -37,8 +41,8 @@ It's common these days to have your app run on a single HTML page, and have JS c
 
 * ~~Create the addItem 'section' which will have 3 inputs and a button to submit a new menu item.~~
 
-* Clicking on either header will add 'hide' class to the view opposite to the one represented and remove it from t'other.
+* ~~Clicking on either header will add 'hide' class to the view opposite to the one represented and remove it from t'other.~~
 
-* Create a function that takes the info in each input box, creates an object from it, and ~~pushes it into the "food" array~~ appends it to the 'menu' class. The inputs should then be cleared.
+* ~~Create a function that takes the info in each input box, creates an object from it, and ~~pushes it into the "food" array~~ appends it to the 'menu' class. The inputs should then be cleared.~~
 
 * Perhaps include a message indicating that the menu has been updated.
