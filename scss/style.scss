@@ -11,10 +11,6 @@ body {
     font-family: sans-serif;
 }
 
-// .hidden * {
-//     display: none;
-// }
-
 header {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
@@ -40,6 +36,9 @@ header {
 .menu {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: rgba(128, 128, 128, 0.6);
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
 
     ul {
         //border-top: 2px inset white;
@@ -67,15 +66,25 @@ header {
 }
 
 .addItem {
-    border: 5px solid white;
+    background-color: rgba(128, 128, 128, 0.6);
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     width: 25%;
     margin: 10vh auto;
+    padding: 1vh;
 
     input {
         display: block;
         margin: 1vw;
         width: 80%;
+    }
+
+    button {
+        border-radius: 0px;
+        border: 1px double black;
+        background-color: white;
+        width: 6vw;
     }
 }
 
